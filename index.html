@@ -8,19 +8,100 @@
     <title>chat-app</title>
   </head>
   <body>
-    <!--colored shape at the left of the background-->
-    <div class="colored-shape-left"></div>
-
-    <!--colored shape at the right of the background-->
-    <div class="colored-shape-right"></div>
-    <div class="stay-in-touch">
-      <div class="stay-in--touch-inner">
-        <h2 class="simple-booking">Simple booking</h2>
-        Stay in touch with our dog walkers through the chat interface. This
-        makes it easy to discuss arrangements and make bookings. Once the walk
-        has been completed you can rate your walker and book again all through
-        the chat.
-      </div>
-    </div>
+    <main>
+      <section class="shape deep"></section>
+      <section class="phone_container">
+        <div class="phone">
+          <section class="mask">
+            <div class="notch_container">
+              <div class="notch"></div>
+              <div class="user">
+                <div class="user_info">
+                  <div class="user_info_left">
+                    <div class="icon">C</div>
+                    <img
+                      src="./resources/images/avatar.jpg"
+                      alt="avatar"
+                      class="avatar"
+                    />
+                  </div>
+                  <div class="user_info_right">
+                    <div class="user_name">Samuel Green</div>
+                    <div class="user_status">Available to Walk</div>
+                  </div>
+                </div>
+                <div class="dots">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="chat_area">
+            <div class="chat one">
+              <p>That sounds great. Id be happy with that.</p>
+            </div>
+            <div class="chat two">
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+            <div class="reply">
+              <div class="images">
+                <img src="./resources/images/dog-image-1.jpg" alt="dog1" />
+                <img src="./resources/images/dog-image-2.jpg" alt="dog2" />
+                <img src="./resources/images/dog-image-3.jpg" alt="dog3" />
+              </div>
+              <div class="reply_text">
+                <p>Here are a few pictures. She’s a happy girl!</p>
+              </div>
+              <div class="reply_text two">
+                <p>Can you make it?</p>
+              </div>
+            </div>
+            <div class="three">
+              <div class="chat">
+                <p>
+                  She looks so happy! The time we discussed works. How long
+                  shall I take her out for?
+                </p>
+              </div>
+              <div class="activity">
+                <div class="left">
+                  <div class="circle"></div>
+                  <p>30 minute walk</p>
+                </div>
+                <div class="right">$29</div>
+              </div>
+              <div class="activity two">
+                <div class="left">
+                  <div class="circle"></div>
+                  <p>1 hour walk</p>
+                </div>
+                <div class="right">$49</div>
+              </div>
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                name="chat"
+                id="chat"
+                placeholder="Type a message…"
+              />
+              <div class="search"></div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="text_container">
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </section>
+      <section class="shape light">s</section>
+    </main>
   </body>
 </html>
