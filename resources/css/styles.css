@@ -361,10 +361,12 @@ input::placeholder {
 
 .text_container {
   position: absolute;
-  width: 445px;
-  height: 183px;
-  left: 735px;
-  top: 309px;
+  width: 510px;
+  height: 1018px;
+  left: -90px;
+  top: -500px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  border-radius: 255px;
 }
 
 .text_container h1 {
