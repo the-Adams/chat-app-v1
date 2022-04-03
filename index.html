@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./resources/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>chat-app</title>
   </head>
   <body>
@@ -18,7 +22,9 @@
               <div class="user">
                 <div class="user_info">
                   <div class="user_info_left">
-                    <div class="icon">C</div>
+                    <span
+                      ><i class="fa fa-angle-left" aria-hidden="true"></i
+                    ></span>
                     <img
                       src="./resources/images/avatar.jpg"
                       alt="avatar"
@@ -31,9 +37,7 @@
                   </div>
                 </div>
                 <div class="dots">
-                  <div class="dot"></div>
-                  <div class="dot"></div>
-                  <div class="dot"></div>
+                  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -68,14 +72,14 @@
               <div class="activity">
                 <div class="left">
                   <div class="circle"></div>
-                  <p>30 minute walk</p>
+                  <p id="first">30 minute walk</p>
                 </div>
                 <div class="right">$29</div>
               </div>
               <div class="activity two">
                 <div class="left">
                   <div class="circle"></div>
-                  <p>1 hour walk</p>
+                  <p id="second">1 hour walk</p>
                 </div>
                 <div class="right">$49</div>
               </div>
@@ -87,7 +91,9 @@
                 id="chat"
                 placeholder="Type a message…"
               />
-              <div class="search"></div>
+              <span class="search">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </span>
             </div>
           </section>
         </div>

@@ -37,7 +37,7 @@ main {
   top: 159px;
 
   mix-blend-mode: normal;
-  opacity: 0.3;
+  opacity: 0.03;
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
@@ -46,7 +46,8 @@ main {
   width: 247px;
   height: 505px;
   left: 363px;
-  top: 148px;
+  top: 100px;
+  z-index: 2;
 }
 
 .phone {
@@ -117,8 +118,10 @@ main {
   align-items: center;
 }
 
-.user_info_left .icon {
+span {
   margin-right: 8px;
+  color: #f2f2f2;
+  font-weight: bold;
 }
 
 .avatar {
@@ -164,13 +167,11 @@ main {
   justify-content: center;
 }
 
-.dot {
-  background: #d8d8d8;
-  border: 1px solid #979797;
-  box-sizing: border-box;
-  width: 1px;
-  margin: 0.5px;
-  border-radius: 50%;
+/* replaced the class="dot" with an icon from fonts awesome*/
+.dots > i {
+  color: #f2f2f2;
+  font-size: 10px;
+  font-weight: lighter;
 }
 
 .chat_area {
@@ -308,6 +309,7 @@ img {
   border-radius: 50%;
   border: 1px solid #e472ff;
   box-sizing: border-box;
+  padding-right: 10px;
 }
 
 .right {
@@ -317,6 +319,24 @@ img {
   font-size: 12px;
   line-height: 11px;
   color: #ffffff;
+}
+
+.left > p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+#first {
+  padding-right: 60px;
+}
+
+#second {
+  padding-right: 70px;
 }
 
 .input {
@@ -357,6 +377,13 @@ input::placeholder {
   width: 24.27px;
   background: #3e2753;
   border-radius: 50%;
+}
+
+/*added a font awesome icon*/
+.search i {
+  position: relative;
+  left: 10px;
+  top: 3px;
 }
 
 .text_container {
