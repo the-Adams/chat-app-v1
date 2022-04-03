@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+  body {
+    position: relative;
+    width: 375px;
+    height: 100vh;
+    background: #fafafa;
+    overflow: hidden;
+  }
+
+  main {
+    width: inherit;
+    height: inherit;
+    background: inherit;
+    overflow: hidden;
+  }
+
+  .text_container {
+    position: absolute;
+    width: 311px;
+    height: 239px;
+    left: 32px;
+    top: 633px;
+    font-family: "Rubik";
+    font-style: normal;
+  }
+
+  .text_container p {
+    position: absolute;
+    width: 311px;
+    height: 168px;
+    top: 71px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #a39da9;
+  }
+
+  .text_container h1 {
+    position: absolute;
+    width: 311px;
+    height: 47px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #3e2753;
+  }
+
+  .phone_container {
+    position: absolute;
+    width: 247px;
+    height: 505px;
+    left: 64px;
+    top: 64px;
+    z-index: 4;
+  }
+
+  .shape {
+    position: absolute;
+    width: 510px;
+    height: 1018px;
+    background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+    border-radius: 255px;
+  }
+
+  .deep {
+    left: -322px;
+    top: -509px;
+  }
+
+  .light {
+    left: 188px;
+    top: 427px;
+    mix-blend-mode: normal;
+    opacity: 0.03;
+  }
+}
