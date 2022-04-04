@@ -22,14 +22,13 @@ main {
   border-radius: 255px;
   height: 1018px;
   width: 510px;
+  border-radius: 255px;
   background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
 }
 
 .deep {
   left: -90px;
   bottom: 150px;
-
-  border-radius: 255px;
 }
 
 .light {
@@ -189,7 +188,7 @@ span {
   height: 34px;
   background: #eee5f4;
   border-radius: 10px 10px 4px 10px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
   margin: 16px auto 8px 7.5px;
 }
 
@@ -285,12 +284,13 @@ img {
   position: absolute;
   width: 160px;
   height: 32px;
-  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  background: linear-gradient(225deg, #8739ff 0%, #e844ff 100%);
   box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
   border-radius: 10px 10px 4px 10px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
   display: flex;
   align-items: center;
+  justify-content: space-between;
   top: 54px;
 }
 
@@ -303,13 +303,30 @@ img {
   align-items: center;
 }
 
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left p {
+  height: 11px;
+  top: calc(50% - 11px / 2 + 0.5px);
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: #ffffff;
+}
+
 .circle {
   height: 12px;
   width: 12px;
   border-radius: 50%;
   border: 1px solid #e472ff;
   box-sizing: border-box;
-  padding-right: 10px;
+  margin: 0 8px;
 }
 
 .right {
@@ -319,6 +336,7 @@ img {
   font-size: 12px;
   line-height: 11px;
   color: #ffffff;
+  margin-right: 16px;
 }
 
 .left > p {
@@ -377,6 +395,10 @@ input::placeholder {
   width: 24.27px;
   background: #3e2753;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
 /*added a font awesome icon*/
@@ -388,12 +410,10 @@ input::placeholder {
 
 .text_container {
   position: absolute;
-  width: 510px;
-  height: 1018px;
-  left: -90px;
-  top: -500px;
-  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
-  border-radius: 255px;
+  width: 445px;
+  height: 183px;
+  left: 735px;
+  top: 309px;
 }
 
 .text_container h1 {
