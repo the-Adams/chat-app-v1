@@ -1,0 +1,14 @@
+.dots:hover i {
+  font-size: 110%;
+  color: #fff;
+}
+
+.search:hover,
+.search:hover > i {
+  background-color: #261833;
+  color: #fff;
+}
+
+.search:hover > i {
+  font-size: 110%;
+}

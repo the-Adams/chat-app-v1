@@ -170,8 +170,12 @@ main {
   justify-content: center;
 }
 
+.dots i {
+  transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 i {
-  color: #fff;
+  color: rgb(238, 231, 231);
 }
 
 .chat_area {
@@ -382,6 +386,11 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.search i {
+  transition: all 0.3s ease-in-out;
 }
 
 .text_container {
