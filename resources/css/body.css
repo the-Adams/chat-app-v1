@@ -1,0 +1,65 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  background: #fafafa;
+  fill: solid;
+}
+.stay-in-touch {
+  position: absolute;
+  width: 445px;
+  height: 183px;
+  left: 735px;
+  top: 309px;
+}
+.simple-booking {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #3e2753;
+}
+.stay-in-touch-inner {
+  position: absolute;
+  width: 445px;
+  height: 112px;
+  left: 735px;
+  top: 380px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a39da9;
+}
+@media only screen and (max-width: 900px) {
+  .stay-in-touch {
+    width: 311px;
+    height: 239px;
+    left: 32px;
+    top: 633px;
+  }
+
+  .simple-booking {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3e2753;
+  }
+  .stay-in-touch-inner {
+    position: absolute;
+    width: 445px;
+    height: 112px;
+    left: 735px;
+    top: 380px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #a39da9;
+  }
+}
