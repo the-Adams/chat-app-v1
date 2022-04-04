@@ -46,6 +46,9 @@ main {
   height: 505px;
   left: 363px;
   top: 148px;
+  animation-name: myAnimation;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
 }
 
 .phone {
