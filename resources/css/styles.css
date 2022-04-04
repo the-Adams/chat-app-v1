@@ -188,6 +188,7 @@ i {
   left: 9px;
   top: 77px;
   background-color: transparent;
+  overflow: hidden;
 }
 
 .chat {
@@ -202,6 +203,11 @@ i {
 
 .chat.one {
   top: 0;
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 500ms;
+  opacity: 0;
 }
 
 .chat p {
@@ -216,6 +222,11 @@ i {
 
 .chat.two {
   top: 42px;
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 1000ms;
+  opacity: 0;
 }
 
 .reply {
@@ -230,9 +241,15 @@ i {
 
 .images {
   display: flex;
+  position: relative;
   justify-content: space-between;
   width: 136px;
   height: 40px;
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 1500ms;
+  opacity: 0;
 }
 
 img {
@@ -253,11 +270,26 @@ img {
   border-radius: 10px 10px 4px 10px;
 }
 
+.reply_text.one {
+  position: relative;
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 2000ms;
+  opacity: 0;
+}
+
 .reply_text.two {
   width: 80px;
   height: 23px;
   align-self: flex-end;
   margin-right: 0;
+  position: relative;
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 2500ms;
+  opacity: 0;
 }
 
 .reply_text p {
@@ -286,6 +318,11 @@ img {
   align-self: flex-start;
   margin: 0 0 8px 0;
   /* border-radius: 10px 10px 10px 4px; */
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 3000ms;
+  opacity: 0;
 }
 
 .activity {
@@ -299,11 +336,24 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.activity.one {
   top: 54px;
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 3500ms;
+  opacity: 0;
 }
 
 .activity.two {
   top: 93px;
+  animation-name: second;
+  animation-duration: 2000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 4000ms;
+  opacity: 0;
 }
 
 .activity .left {
